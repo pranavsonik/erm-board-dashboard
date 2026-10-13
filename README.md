@@ -4,6 +4,8 @@ A board-level enterprise risk management (ERM) report for a credit union, built 
 
 > **Simulated data.** Every risk, indicator, action, incident and user in this project is invented for demonstration. No real organisation's data is used, and no real person is represented.
 
+**[View the live report](https://app.powerbi.com/view?r=eyJrIjoiNDM5YTc0NmItYjdmYi00YzJlLTlkYTUtMzdiMTgzMzVjMTE4IiwidCI6IjM2YjZhNmM5LTQzYTAtNGY1Mi04NDVmLTAyMTc4NDU5OThjMCJ9)** · [PDF version](docs/ERM%20dashboard.pdf)
+
 ![Board summary](docs/screenshots/01-board-summary.png)
 
 ---
@@ -141,7 +143,7 @@ erm-board-dashboard/
 - **No capital or stress-testing content.** ICAAP, capital planning and stress-test results are out of scope.
 - **KRIs are not linked to individual risks.** They are reported at enterprise level by risk category.
 - **Overlapping heat map points.** Where two risks share a likelihood and impact, their points overlap, and the tooltip shows the one on top.
-- **Public link.** Power BI does not allow Publish to web for reports with row-level security, so any public link is to a copy without the security role. The file in this repository includes it.
+- **Public link.** Power BI does not allow Publish to web for reports with row-level security, so the live report is a copy without the security role. The file in this repository includes it.
 
 ## Tools
 
